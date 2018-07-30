@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteAccountManagement" verbose="10">
+
+	<test name="Test login" verbose="10">
+		<parameter name="user" value="super@cortexit.com.au" />
+		<parameter name="password" value="cortexit!42" />
+	    <classes>
+			<class name="com.backupassist.mopdev.testcase.TestCase_Login" />
+		</classes>
+		
+	</test>
+	
+	<test name="Test Manage Account" verbose="10">
+		<parameter name="url" value="http://www.mopdev.com:8080" />
+		<classes>
+			<class name="com.backupassist.mopdev.testcase.TestCase_ManageAccounts" />
+		</classes>
+	</test>
+</suite>

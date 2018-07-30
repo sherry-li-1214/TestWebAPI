@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteNavigation" verbose="10">
+
+	<!-- <test name="Test Basic" verbose="10">
+		<parameter name="user" value="qamsp@cortexit.com.au" />
+		<parameter name="password" value="Wel@come06" />
+	    <classes>
+			<class name="com.backupassist.sample.SampleTest" />
+		</classes>
+	 -->
+	<test name="Test CRUD" verbose="10">
+		<parameter name="user" value="qamsp@cortexit.com.au" />
+		<parameter name="password" value="Wel@come06" />
+	    <classes>
+			<class name="com.backupassist.testwebapi.DataDrivenRuntimeJobTest" />
+		</classes>
+	</test>
+<!--  
+   <test name="Test Navigation" verbose="10">
+		<parameter name="url" value="http://www.mopdev.com:8080" />
+		<classes>
+			<class name="com.backupassist.mopdev.testcase.TestCase_Navigation" />
+		</classes>
+		
+  </test>
+ 
+<test name="Test Clients and Sites" verbose="10">
+		<parameter name="url" value="http://www.mopdev.com:8080" />
+		<classes>
+			<class name="com.backupassist.mopdev.testcase.TestCase_ManageClientsAndSites" />
+		</classes>
+		
+  </test>
+
+ 		
+  <test name="Test Reports" verbose="10">
+		<parameter name="url" value="http://www.mopdev.com:8080" />
+		<classes>
+			<class name="com.backupassist.mopdev.testcase.TestCase_ManageReports" />
+		</classes>
+		
+	</test>
+
+	 -->
+	
+	
+</suite>
+

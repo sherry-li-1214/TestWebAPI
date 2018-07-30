@@ -1,0 +1,91 @@
+[{
+  "Id": "1",
+  "Name": "1.1 Job From API",
+  "Description": "Job From API(Description)",
+  "Suspended": true,
+  "Licensed": true,
+  "ParentId": "",
+  "BackupEngineType": "LazarusEngine",
+  "BackupSelections": {
+    "Selections": [
+      {
+        "SelectionType": "Volumes",
+        "Inclusions": [
+          "c:"
+        ],
+        "Exclusions": null
+      }
+    ]
+  },
+  "BackupDestination": {
+    "DestinationPath": "D:\\",
+    "DestinationType": "LocalDirectory",
+    "ImageUri": null,
+    "UISelector": "LocalDrive"
+  },
+  "NextBackupTime": "15:33:33 09/07/2017",
+  "LastRunStatus": "",
+  "LastRunStartDateTime": "",
+  "LastRunDuration": ""
+},
+{
+  "Id": "2",
+  "Name": "1.2 Job From API",
+  "Description": "Job From API(Description)",
+  "Suspended": true,
+  "Licensed": true,
+  "ParentId": "",
+  "BackupEngineType": "LazarusEngine",
+  "BackupSelections": {
+    "Selections": [
+      {
+        "SelectionType": "Volumes",
+        "Inclusions": [
+          "c:"
+        ],
+        "Exclusions": null
+      }
+    ]
+  },
+  "BackupDestination": {
+    "DestinationPath": "D:\\",
+    "DestinationType": "LocalDirectory",
+    "ImageUri": null,
+    "UISelector": "LocalDrive"
+  },
+  "NextBackupTime": "15:33:33 09/07/2017",
+  "LastRunStatus": "",
+  "LastRunStartDateTime": "",
+  "LastRunDuration": ""
+},
+{
+  "Id": "3",
+  "Name": "1.3 Job From API",
+  "Description": "Job From API(Description)",
+  "Suspended": true,
+  "Licensed": true,
+  "ParentId": "",
+  "BackupEngineType": "LazarusEngine",
+  "BackupSelections": {
+    "Selections": [
+      {
+        "SelectionType": "Volumes",
+        "Inclusions": [
+          "c:"
+        ],
+        "Exclusions": null
+      }
+    ]
+  },
+  "BackupDestination": {
+    "DestinationPath": "D:\\",
+    "DestinationType": "LocalDirectory",
+    "ImageUri": null,
+    "UISelector": "LocalDrive"
+  },
+  "NextBackupTime": "15:33:33 09/07/2017",
+  "LastRunStatus": "",
+  "LastRunStartDateTime": "",
+  "LastRunDuration": ""
+}
+]

@@ -1,0 +1,31 @@
+{
+  "Id": "",
+  "Name": "1.1 SP Job From API",
+  "Description": "Job From API(Description)",
+  "Suspended": true,
+  "Licensed": true,
+  "ParentId": "",
+  "DependentIds": null,
+  "BackupEngineType": "LazarusEngine",
+  "BackupSelections": {
+    "Selections": [
+      {
+        "SelectionType": "Volumes",
+        "Inclusions": [
+          "c:"
+        ],
+        "Exclusions": null
+      }
+    ]
+  },
+  "BackupDestination": {
+    "DestinationPath": "D:\\",
+    "DestinationType": "LocalDirectory",
+    "ImageUri": null,
+    "UISelector": "LocalDrive"
+  },
+  "NextBackupTime": "15:33:33 09/07/2017",
+  "LastRunStatus": "",
+  "LastRunStartDateTime": "",
+  "LastRunDuration": ""
+}

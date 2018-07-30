@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.backupassist.sample.SampleTest">
+        <methods>
+          <include name="cleanupAfterMethod"/>
+          <include name="testRestAssuredToClass"/>
+          <include name="initBeforeClass"/>
+        </methods>
+      </class> <!-- com.backupassist.sample.SampleTest -->
+      <class name="com.backupassist.testwebapi.BackupJobTest">
+        <methods>
+          <include name="cloneAJob"/>
+          <include name="cleanupAfterMethod"/>
+          <include name="getAmazonS3"/>
+          <include name="getAValidJobAndUpdateIt"/>
+          <include name="initBeforeClass"/>
+          <include name="createAndDeleteAJob"/>
+        </methods>
+      </class> <!-- com.backupassist.testwebapi.BackupJobTest -->
+      <class name="com.backupassist.testwebapi.DataDrivenRuntimeJobTest">
+        <methods>
+          <include name="cleanupAfterMethod"/>
+          <include name="initBeforeClass"/>
+          <include name="createAndRunJob" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.backupassist.testwebapi.DataDrivenRuntimeJobTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

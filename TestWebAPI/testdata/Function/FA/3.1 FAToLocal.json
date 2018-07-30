@@ -1,0 +1,30 @@
+{
+  "Id": "",
+  "Name": "3.1 FA Job From API",
+  "Description": "Job From API(Description)",
+  "Suspended": true,
+  "Licensed": true,
+  "ParentId": "",
+  "BackupEngineType": "LazarusEngine",
+  "BackupSelections": {
+    "Selections": [
+      {
+        "SelectionType": "Volumes",
+        "Inclusions": [
+          "c:"
+        ],
+        "Exclusions": null
+      }
+    ]
+  },
+  "BackupDestination": {
+    "DestinationPath": "D:\\",
+    "DestinationType": "LocalDirectory",
+    "ImageUri": null,
+    "UISelector": "LocalDrive"
+  },
+  "NextBackupTime": "15:33:33 09/07/2017",
+  "LastRunStatus": "",
+  "LastRunStartDateTime": "",
+  "LastRunDuration": ""
+}

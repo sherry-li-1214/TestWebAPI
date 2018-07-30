@@ -1,0 +1,500 @@
+2018-07-27 11:59:59.398 [INFO][main]  - ******************************************************************
+2018-07-27 11:59:59.398 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 11:59:59.398 [INFO][main]  - ******************************************************************
+2018-07-27 11:59:59.412 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 11:59:59.553 [INFO][main]  - 1
+2018-07-27 11:59:59.553 [INFO][main]  - 1.1 Job From API
+2018-07-27 11:59:59.553 [INFO][main]  - Job From API(Description)
+2018-07-27 11:59:59.553 [INFO][main]  - LocalDirectory
+2018-07-27 11:59:59.553 [INFO][main]  - c:
+2018-07-27 11:59:59.553 [INFO][main]  - 2
+2018-07-27 11:59:59.553 [INFO][main]  - 1.2 Job From API
+2018-07-27 11:59:59.553 [INFO][main]  - Job From API(Description)
+2018-07-27 11:59:59.553 [INFO][main]  - LocalDirectory
+2018-07-27 11:59:59.553 [INFO][main]  - c:
+2018-07-27 11:59:59.553 [INFO][main]  - 3
+2018-07-27 11:59:59.553 [INFO][main]  - 1.3 Job From API
+2018-07-27 11:59:59.553 [INFO][main]  - Job From API(Description)
+2018-07-27 11:59:59.553 [INFO][main]  - LocalDirectory
+2018-07-27 11:59:59.553 [INFO][main]  - c:
+2018-07-27 11:59:59.553 [INFO][main]  -                                                                   
+2018-07-27 11:59:59.568 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 11:59:59.568 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 11:59:59.568 [INFO][main]  -                                                                   
+2018-07-27 11:59:59.568 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 11:59:59.568 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 11:59:59.568 [INFO][main]  -                                                                   
+2018-07-27 11:59:59.568 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 11:59:59.568 [INFO][main]  - 
+2018-07-27 11:59:59.568 [INFO][main]  - Job From API(Description)
+2018-07-27 11:59:59.568 [INFO][main]  - LocalDirectory
+2018-07-27 11:59:59.568 [INFO][main]  - c:
+2018-07-27 11:59:59.568 [INFO][main]  -                                                                   
+2018-07-27 11:59:59.568 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 12:00:03.537 [INFO][main]  -                                                                   
+2018-07-27 12:00:03.544 [INFO][main]  - ******************************************************************
+2018-07-27 12:00:03.544 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 12:00:03.544 [INFO][main]  - ******************************************************************
+2018-07-27 12:00:03.544 [INFO][main]  - ----------------Test Case 6 : cloneAJob----------------
+2018-07-27 12:00:05.592 [INFO][main]  -                                                                   
+2018-07-27 12:00:05.595 [INFO][main]  - ----------------Test Case 7 : createAndDeleteAJob----------------
+2018-07-27 12:00:07.707 [INFO][main]  -                                                                   
+2018-07-27 12:00:07.709 [INFO][main]  - ----------------Test Case 8 : getAValidJobAndUpdateIt----------------
+2018-07-27 12:00:09.773 [INFO][main]  -                                                                   
+2018-07-27 12:00:09.773 [INFO][main]  - ----------------Test Case 9 : getAllJobs----------------
+2018-07-27 12:00:11.807 [INFO][main]  -                                                                   
+2018-07-27 12:00:11.807 [INFO][main]  - ----------------Test Case 10 : getAmazonS3----------------
+2018-07-27 12:00:13.841 [INFO][main]  -                                                                   
+2018-07-27 12:00:13.843 [INFO][main]  - ******************************************************************
+2018-07-27 12:00:13.843 [INFO][main]  - *     com.backupassist.testwebapi.DataDrivenRuntimeJobTest
+2018-07-27 12:00:13.843 [INFO][main]  - ******************************************************************
+2018-07-27 12:00:13.844 [INFO][main]  - ----------------Test Case 11 : createAndRunJob----------------
+2018-07-27 12:00:13.844 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\CC\4.1 CCToLocal.json
+2018-07-27 12:00:15.891 [INFO][main]  -                                                                   
+2018-07-27 12:00:15.891 [INFO][main]  - ----------------Test Case 12 : createAndRunJob----------------
+2018-07-27 12:00:15.893 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FA\3.1 FAToLocal.json
+2018-07-27 12:00:17.973 [INFO][main]  -                                                                   
+2018-07-27 12:00:17.973 [INFO][main]  - ----------------Test Case 13 : createAndRunJob----------------
+2018-07-27 12:00:17.974 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FP\2.1 FPToLocal.json
+2018-07-27 12:00:20.007 [INFO][main]  -                                                                   
+2018-07-27 12:00:20.007 [INFO][main]  - ----------------Test Case 14 : createAndRunJob----------------
+2018-07-27 12:00:20.007 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\SP\1.1 SPToLocal.json
+2018-07-27 12:00:22.072 [INFO][main]  -                                                                   
+2018-07-27 12:09:37.983 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:37.998 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 12:09:37.998 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:37.998 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 12:09:38.092 [INFO][main]  - 1
+2018-07-27 12:09:38.092 [INFO][main]  - 1.1 Job From API
+2018-07-27 12:09:38.092 [INFO][main]  - Job From API(Description)
+2018-07-27 12:09:38.092 [INFO][main]  - LocalDirectory
+2018-07-27 12:09:38.092 [INFO][main]  - c:
+2018-07-27 12:09:38.092 [INFO][main]  - 2
+2018-07-27 12:09:38.092 [INFO][main]  - 1.2 Job From API
+2018-07-27 12:09:38.092 [INFO][main]  - Job From API(Description)
+2018-07-27 12:09:38.092 [INFO][main]  - LocalDirectory
+2018-07-27 12:09:38.092 [INFO][main]  - c:
+2018-07-27 12:09:38.092 [INFO][main]  - 3
+2018-07-27 12:09:38.092 [INFO][main]  - 1.3 Job From API
+2018-07-27 12:09:38.092 [INFO][main]  - Job From API(Description)
+2018-07-27 12:09:38.092 [INFO][main]  - LocalDirectory
+2018-07-27 12:09:38.092 [INFO][main]  - c:
+2018-07-27 12:09:38.092 [INFO][main]  -                                                                   
+2018-07-27 12:09:38.092 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 12:09:38.092 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 12:09:38.092 [INFO][main]  -                                                                   
+2018-07-27 12:09:38.108 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 12:09:38.108 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 12:09:38.108 [INFO][main]  -                                                                   
+2018-07-27 12:09:38.108 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 12:09:38.108 [INFO][main]  - 
+2018-07-27 12:09:38.108 [INFO][main]  - Job From API(Description)
+2018-07-27 12:09:38.108 [INFO][main]  - LocalDirectory
+2018-07-27 12:09:38.108 [INFO][main]  - c:
+2018-07-27 12:09:38.108 [INFO][main]  -                                                                   
+2018-07-27 12:09:38.108 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 12:09:41.670 [INFO][main]  - {"OperationResultType":"Error","Code":-1,"Message":"Job 21 not found","Details":"","ResultValue":null}
+2018-07-27 12:09:42.610 [INFO][main]  -                                                                   
+2018-07-27 12:09:42.625 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:42.625 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 12:09:42.625 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:42.625 [INFO][main]  - ----------------Test Case 6 : cloneAJob----------------
+2018-07-27 12:09:42.766 [INFO][main]  -                                                                   
+2018-07-27 12:09:42.793 [INFO][main]  - ----------------Test Case 7 : createAndDeleteAJob----------------
+2018-07-27 12:09:43.061 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.061 [INFO][main]  - ----------------Test Case 8 : getAValidJobAndUpdateIt----------------
+2018-07-27 12:09:43.092 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.092 [INFO][main]  - ----------------Test Case 9 : getAllJobs----------------
+2018-07-27 12:09:43.108 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.108 [INFO][main]  - ----------------Test Case 10 : getAmazonS3----------------
+2018-07-27 12:09:43.764 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.764 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:43.764 [INFO][main]  - *     com.backupassist.testwebapi.DataDrivenRuntimeJobTest
+2018-07-27 12:09:43.764 [INFO][main]  - ******************************************************************
+2018-07-27 12:09:43.764 [INFO][main]  - ----------------Test Case 11 : createAndRunJob----------------
+2018-07-27 12:09:43.764 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\CC\4.1 CCToLocal.json
+2018-07-27 12:09:43.858 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.871 [INFO][main]  - ----------------Test Case 12 : createAndRunJob----------------
+2018-07-27 12:09:43.871 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FA\3.1 FAToLocal.json
+2018-07-27 12:09:43.901 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.901 [INFO][main]  - ----------------Test Case 13 : createAndRunJob----------------
+2018-07-27 12:09:43.901 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FP\2.1 FPToLocal.json
+2018-07-27 12:09:43.917 [INFO][main]  -                                                                   
+2018-07-27 12:09:43.917 [INFO][main]  - ----------------Test Case 14 : createAndRunJob----------------
+2018-07-27 12:09:43.917 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\SP\1.1 SPToLocal.json
+2018-07-27 12:09:43.948 [INFO][main]  -                                                                   
+2018-07-27 12:17:56.078 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:56.078 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 12:17:56.078 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:56.094 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 12:17:56.172 [INFO][main]  - 1
+2018-07-27 12:17:56.172 [INFO][main]  - 1.1 Job From API
+2018-07-27 12:17:56.172 [INFO][main]  - Job From API(Description)
+2018-07-27 12:17:56.172 [INFO][main]  - LocalDirectory
+2018-07-27 12:17:56.172 [INFO][main]  - c:
+2018-07-27 12:17:56.172 [INFO][main]  - 2
+2018-07-27 12:17:56.172 [INFO][main]  - 1.2 Job From API
+2018-07-27 12:17:56.172 [INFO][main]  - Job From API(Description)
+2018-07-27 12:17:56.172 [INFO][main]  - LocalDirectory
+2018-07-27 12:17:56.172 [INFO][main]  - c:
+2018-07-27 12:17:56.172 [INFO][main]  - 3
+2018-07-27 12:17:56.172 [INFO][main]  - 1.3 Job From API
+2018-07-27 12:17:56.172 [INFO][main]  - Job From API(Description)
+2018-07-27 12:17:56.172 [INFO][main]  - LocalDirectory
+2018-07-27 12:17:56.172 [INFO][main]  - c:
+2018-07-27 12:17:56.172 [INFO][main]  -                                                                   
+2018-07-27 12:17:56.188 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 12:17:56.188 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 12:17:56.188 [INFO][main]  -                                                                   
+2018-07-27 12:17:56.188 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 12:17:56.188 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 12:17:56.188 [INFO][main]  -                                                                   
+2018-07-27 12:17:56.188 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 12:17:56.188 [INFO][main]  - 
+2018-07-27 12:17:56.188 [INFO][main]  - Job From API(Description)
+2018-07-27 12:17:56.188 [INFO][main]  - LocalDirectory
+2018-07-27 12:17:56.188 [INFO][main]  - c:
+2018-07-27 12:17:56.188 [INFO][main]  -                                                                   
+2018-07-27 12:17:56.188 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 12:17:58.391 [INFO][main]  - {"OperationResultType":"Error","Code":-1,"Message":"Job 21 not found","Details":"","ResultValue":null}
+2018-07-27 12:17:59.196 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.196 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:59.196 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 12:17:59.196 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:59.196 [INFO][main]  - ----------------Test Case 6 : cloneAJob----------------
+2018-07-27 12:17:59.243 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.243 [INFO][main]  - ----------------Test Case 7 : createAndDeleteAJob----------------
+2018-07-27 12:17:59.368 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.368 [INFO][main]  - ----------------Test Case 8 : getAValidJobAndUpdateIt----------------
+2018-07-27 12:17:59.399 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.404 [INFO][main]  - ----------------Test Case 9 : getAllJobs----------------
+2018-07-27 12:17:59.420 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.420 [INFO][main]  - ----------------Test Case 10 : getAmazonS3----------------
+2018-07-27 12:17:59.833 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.833 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:59.833 [INFO][main]  - *     com.backupassist.testwebapi.DataDrivenRuntimeJobTest
+2018-07-27 12:17:59.833 [INFO][main]  - ******************************************************************
+2018-07-27 12:17:59.833 [INFO][main]  - ----------------Test Case 11 : createAndRunJob----------------
+2018-07-27 12:17:59.833 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\CC\4.1 CCToLocal.json
+2018-07-27 12:17:59.912 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.912 [INFO][main]  - ----------------Test Case 12 : createAndRunJob----------------
+2018-07-27 12:17:59.912 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FA\3.1 FAToLocal.json
+2018-07-27 12:17:59.927 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.927 [INFO][main]  - ----------------Test Case 13 : createAndRunJob----------------
+2018-07-27 12:17:59.927 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FP\2.1 FPToLocal.json
+2018-07-27 12:17:59.958 [INFO][main]  -                                                                   
+2018-07-27 12:17:59.958 [INFO][main]  - ----------------Test Case 14 : createAndRunJob----------------
+2018-07-27 12:17:59.958 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\SP\1.1 SPToLocal.json
+2018-07-27 12:17:59.974 [INFO][main]  -                                                                   
+2018-07-27 13:04:02.108 [INFO][main]  - ******************************************************************
+2018-07-27 13:04:02.123 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:04:02.123 [INFO][main]  - ******************************************************************
+2018-07-27 13:04:02.123 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:04:02.201 [INFO][main]  - 1
+2018-07-27 13:04:02.201 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:04:02.201 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:02.201 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:02.201 [INFO][main]  - c:
+2018-07-27 13:04:02.201 [INFO][main]  - 2
+2018-07-27 13:04:02.201 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:04:02.201 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:02.201 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:02.201 [INFO][main]  - c:
+2018-07-27 13:04:02.201 [INFO][main]  - 3
+2018-07-27 13:04:02.201 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:04:02.201 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:02.201 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:02.201 [INFO][main]  - c:
+2018-07-27 13:04:02.201 [INFO][main]  -                                                                   
+2018-07-27 13:04:02.201 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:04:02.201 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:04:02.201 [INFO][main]  -                                                                   
+2018-07-27 13:04:02.217 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:04:02.217 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:04:02.217 [INFO][main]  -                                                                   
+2018-07-27 13:04:02.217 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:04:02.217 [INFO][main]  - 
+2018-07-27 13:04:02.217 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:02.217 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:02.217 [INFO][main]  - c:
+2018-07-27 13:04:02.217 [INFO][main]  -                                                                   
+2018-07-27 13:04:02.217 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:04:04.280 [INFO][main]  - {"OperationResultType":"Error","Code":-1,"Message":"Job 1 not found","Details":"","ResultValue":null}
+2018-07-27 13:04:05.197 [INFO][main]  -                                                                   
+2018-07-27 13:04:28.040 [INFO][main]  - ******************************************************************
+2018-07-27 13:04:28.040 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:04:28.040 [INFO][main]  - ******************************************************************
+2018-07-27 13:04:28.055 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:04:28.149 [INFO][main]  - 1
+2018-07-27 13:04:28.149 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:04:28.149 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:28.149 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:28.149 [INFO][main]  - c:
+2018-07-27 13:04:28.149 [INFO][main]  - 2
+2018-07-27 13:04:28.149 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:04:28.149 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:28.149 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:28.149 [INFO][main]  - c:
+2018-07-27 13:04:28.149 [INFO][main]  - 3
+2018-07-27 13:04:28.149 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:04:28.149 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:28.149 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:28.149 [INFO][main]  - c:
+2018-07-27 13:04:28.149 [INFO][main]  -                                                                   
+2018-07-27 13:04:28.165 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:04:28.165 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:04:28.165 [INFO][main]  -                                                                   
+2018-07-27 13:04:28.165 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:04:28.165 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:04:28.165 [INFO][main]  -                                                                   
+2018-07-27 13:04:28.165 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:04:28.165 [INFO][main]  - 
+2018-07-27 13:04:28.165 [INFO][main]  - Job From API(Description)
+2018-07-27 13:04:28.165 [INFO][main]  - LocalDirectory
+2018-07-27 13:04:28.165 [INFO][main]  - c:
+2018-07-27 13:04:28.165 [INFO][main]  -                                                                   
+2018-07-27 13:04:28.180 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:04:30.227 [INFO][main]  - {"OperationResultType":"Error","Code":-1,"Message":"Job 1 not found","Details":"","ResultValue":null}
+2018-07-27 13:04:31.003 [INFO][main]  -                                                                   
+2018-07-27 13:06:45.396 [INFO][main]  - ******************************************************************
+2018-07-27 13:06:45.411 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:06:45.411 [INFO][main]  - ******************************************************************
+2018-07-27 13:06:45.427 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:06:45.505 [INFO][main]  - 1
+2018-07-27 13:06:45.505 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:06:45.505 [INFO][main]  - Job From API(Description)
+2018-07-27 13:06:45.505 [INFO][main]  - LocalDirectory
+2018-07-27 13:06:45.505 [INFO][main]  - c:
+2018-07-27 13:06:45.505 [INFO][main]  - 2
+2018-07-27 13:06:45.505 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:06:45.505 [INFO][main]  - Job From API(Description)
+2018-07-27 13:06:45.505 [INFO][main]  - LocalDirectory
+2018-07-27 13:06:45.505 [INFO][main]  - c:
+2018-07-27 13:06:45.505 [INFO][main]  - 3
+2018-07-27 13:06:45.505 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:06:45.505 [INFO][main]  - Job From API(Description)
+2018-07-27 13:06:45.505 [INFO][main]  - LocalDirectory
+2018-07-27 13:06:45.505 [INFO][main]  - c:
+2018-07-27 13:06:45.505 [INFO][main]  -                                                                   
+2018-07-27 13:06:45.521 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:06:45.521 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:06:45.521 [INFO][main]  -                                                                   
+2018-07-27 13:06:45.521 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:06:45.521 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:06:45.521 [INFO][main]  -                                                                   
+2018-07-27 13:06:45.521 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:06:45.521 [INFO][main]  - 
+2018-07-27 13:06:45.521 [INFO][main]  - Job From API(Description)
+2018-07-27 13:06:45.521 [INFO][main]  - LocalDirectory
+2018-07-27 13:06:45.521 [INFO][main]  - c:
+2018-07-27 13:06:45.521 [INFO][main]  -                                                                   
+2018-07-27 13:06:45.521 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:06:47.411 [INFO][main]  - {"Id":"1","Name":"Job (1)","Description":null,"Suspended":false,"Licensed":true,"ParentId":"","DependentIds":[],"BackupEngineType":"LazarusEngine","BackupSelections":{"Selections":[{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"Volumes","Inclusions":["i:"],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":true,"SelectionType":"System","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"VSS","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"FilesAndFolders","Inclusions":["I:\\"],"Exclusions":null}]},"BackupDestination":{"DestinationPath":"G:\\","DestinationType":"LocalDirectory","ImageUri":null,"UISelector":"LocalDrive","BackupScheme":{"MaxNumberOfChains":2,"MaxChainLength":5,"BackupFilename":"THIS SHOULD NOT BE USED","Schedule":{"BackupDays":[false,true,true,true,true,true,false],"BackupTimes":["22:00:00"],"IntraDaySchedulingSupported":false},"ImageUri":null,"UISelector":"LocalDrivePeriodicFullIncrementalForLazarus"}},"NextBackupTime":"2018-07-27T22:00:00+10:00","ResultStatus":"None","Status":"None","LastRunStartDateTime":null,"LastRunDuration":""}
+2018-07-27 13:06:48.005 [INFO][main]  -                                                                   
+2018-07-27 13:08:20.686 [INFO][main]  - ******************************************************************
+2018-07-27 13:08:20.686 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:08:20.686 [INFO][main]  - ******************************************************************
+2018-07-27 13:08:20.702 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:08:20.780 [INFO][main]  - 1
+2018-07-27 13:08:20.780 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:08:20.780 [INFO][main]  - Job From API(Description)
+2018-07-27 13:08:20.780 [INFO][main]  - LocalDirectory
+2018-07-27 13:08:20.780 [INFO][main]  - c:
+2018-07-27 13:08:20.780 [INFO][main]  - 2
+2018-07-27 13:08:20.780 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:08:20.780 [INFO][main]  - Job From API(Description)
+2018-07-27 13:08:20.780 [INFO][main]  - LocalDirectory
+2018-07-27 13:08:20.780 [INFO][main]  - c:
+2018-07-27 13:08:20.780 [INFO][main]  - 3
+2018-07-27 13:08:20.780 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:08:20.780 [INFO][main]  - Job From API(Description)
+2018-07-27 13:08:20.780 [INFO][main]  - LocalDirectory
+2018-07-27 13:08:20.780 [INFO][main]  - c:
+2018-07-27 13:08:20.780 [INFO][main]  -                                                                   
+2018-07-27 13:08:20.796 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:08:20.796 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:08:20.796 [INFO][main]  -                                                                   
+2018-07-27 13:08:20.796 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:08:20.796 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:08:20.796 [INFO][main]  -                                                                   
+2018-07-27 13:08:20.796 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:08:20.796 [INFO][main]  - 
+2018-07-27 13:08:20.796 [INFO][main]  - Job From API(Description)
+2018-07-27 13:08:20.811 [INFO][main]  - LocalDirectory
+2018-07-27 13:08:20.811 [INFO][main]  - c:
+2018-07-27 13:08:20.811 [INFO][main]  -                                                                   
+2018-07-27 13:08:20.811 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:08:22.780 [INFO][main]  - {"Id":"1","Name":"Job (1)","Description":null,"Suspended":false,"Licensed":true,"ParentId":"","DependentIds":[],"BackupEngineType":"LazarusEngine","BackupSelections":{"Selections":[{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"Volumes","Inclusions":["i:"],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":true,"SelectionType":"System","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"VSS","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"FilesAndFolders","Inclusions":["I:\\"],"Exclusions":null}]},"BackupDestination":{"DestinationPath":"G:\\","DestinationType":"LocalDirectory","ImageUri":null,"UISelector":"LocalDrive","BackupScheme":{"MaxNumberOfChains":2,"MaxChainLength":5,"BackupFilename":"THIS SHOULD NOT BE USED","Schedule":{"BackupDays":[false,true,true,true,true,true,false],"BackupTimes":["22:00:00"],"IntraDaySchedulingSupported":false},"ImageUri":null,"UISelector":"LocalDrivePeriodicFullIncrementalForLazarus"}},"NextBackupTime":"2018-07-27T22:00:00+10:00","ResultStatus":"None","Status":"None","LastRunStartDateTime":null,"LastRunDuration":""}
+2018-07-27 13:08:23.162 [INFO][main]  -                                                                   
+2018-07-27 13:17:07.574 [INFO][main]  - ******************************************************************
+2018-07-27 13:17:07.574 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:17:07.574 [INFO][main]  - ******************************************************************
+2018-07-27 13:17:07.590 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:17:07.668 [INFO][main]  - 1
+2018-07-27 13:17:07.668 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:17:07.668 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:07.668 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:07.668 [INFO][main]  - c:
+2018-07-27 13:17:07.668 [INFO][main]  - 2
+2018-07-27 13:17:07.668 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:17:07.668 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:07.668 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:07.668 [INFO][main]  - c:
+2018-07-27 13:17:07.668 [INFO][main]  - 3
+2018-07-27 13:17:07.668 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:17:07.683 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:07.683 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:07.683 [INFO][main]  - c:
+2018-07-27 13:17:07.683 [INFO][main]  -                                                                   
+2018-07-27 13:17:07.683 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:17:07.683 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:17:07.683 [INFO][main]  -                                                                   
+2018-07-27 13:17:07.683 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:17:07.683 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:17:07.683 [INFO][main]  -                                                                   
+2018-07-27 13:17:07.699 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:17:07.699 [INFO][main]  - 
+2018-07-27 13:17:07.699 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:07.699 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:07.699 [INFO][main]  - c:
+2018-07-27 13:17:07.699 [INFO][main]  -                                                                   
+2018-07-27 13:17:07.699 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:17:09.418 [INFO][main]  - {"Id":"1","Name":"Job (1)","Description":null,"Suspended":false,"Licensed":true,"ParentId":"","DependentIds":[],"BackupEngineType":"LazarusEngine","BackupSelections":{"Selections":[{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"Volumes","Inclusions":["i:"],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":true,"SelectionType":"System","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"VSS","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"FilesAndFolders","Inclusions":["I:\\"],"Exclusions":null}]},"BackupDestination":{"DestinationPath":"G:\\","DestinationType":"LocalDirectory","ImageUri":null,"UISelector":"LocalDrive","BackupScheme":{"MaxNumberOfChains":2,"MaxChainLength":5,"BackupFilename":"THIS SHOULD NOT BE USED","Schedule":{"BackupDays":[false,true,true,true,true,true,false],"BackupTimes":["22:00:00"],"IntraDaySchedulingSupported":false},"ImageUri":null,"UISelector":"LocalDrivePeriodicFullIncrementalForLazarus"}},"NextBackupTime":"2018-07-30T22:00:00+10:00","ResultStatus":"Success","Status":"Completed","LastRunStartDateTime":"2018-07-27T13:14:00.0100787+10:00","LastRunDuration":"35s"}
+2018-07-27 13:17:09.819 [INFO][main]  -                                                                   
+2018-07-27 13:17:51.037 [INFO][main]  - ******************************************************************
+2018-07-27 13:17:51.037 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:17:51.037 [INFO][main]  - ******************************************************************
+2018-07-27 13:17:51.053 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:17:51.131 [INFO][main]  - 1
+2018-07-27 13:17:51.131 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:17:51.131 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:51.131 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:51.131 [INFO][main]  - c:
+2018-07-27 13:17:51.131 [INFO][main]  - 2
+2018-07-27 13:17:51.131 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:17:51.131 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:51.131 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:51.131 [INFO][main]  - c:
+2018-07-27 13:17:51.131 [INFO][main]  - 3
+2018-07-27 13:17:51.131 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:17:51.131 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:51.131 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:51.131 [INFO][main]  - c:
+2018-07-27 13:17:51.131 [INFO][main]  -                                                                   
+2018-07-27 13:17:51.147 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:17:51.147 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:17:51.147 [INFO][main]  -                                                                   
+2018-07-27 13:17:51.147 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:17:51.147 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:17:51.147 [INFO][main]  -                                                                   
+2018-07-27 13:17:51.147 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:17:51.162 [INFO][main]  - 
+2018-07-27 13:17:51.162 [INFO][main]  - Job From API(Description)
+2018-07-27 13:17:51.162 [INFO][main]  - LocalDirectory
+2018-07-27 13:17:51.162 [INFO][main]  - c:
+2018-07-27 13:17:51.162 [INFO][main]  -                                                                   
+2018-07-27 13:17:51.162 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:17:53.165 [INFO][main]  - {"Id":"1","Name":"Job (1)","Description":null,"Suspended":false,"Licensed":true,"ParentId":"","DependentIds":[],"BackupEngineType":"LazarusEngine","BackupSelections":{"Selections":[{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"Volumes","Inclusions":["i:"],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":true,"SelectionType":"System","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"VSS","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"FilesAndFolders","Inclusions":["I:\\"],"Exclusions":null}]},"BackupDestination":{"DestinationPath":"G:\\","DestinationType":"LocalDirectory","ImageUri":null,"UISelector":"LocalDrive","BackupScheme":{"MaxNumberOfChains":2,"MaxChainLength":5,"BackupFilename":"THIS SHOULD NOT BE USED","Schedule":{"BackupDays":[false,true,true,true,true,true,false],"BackupTimes":["22:00:00"],"IntraDaySchedulingSupported":false},"ImageUri":null,"UISelector":"LocalDrivePeriodicFullIncrementalForLazarus"}},"NextBackupTime":"2018-07-30T22:00:00+10:00","ResultStatus":"Success","Status":"Completed","LastRunStartDateTime":"2018-07-27T13:14:00.0100787+10:00","LastRunDuration":"35s"}
+2018-07-27 13:17:53.539 [INFO][main]  -                                                                   
+2018-07-27 13:18:18.468 [INFO][main]  - ******************************************************************
+2018-07-27 13:18:18.468 [INFO][main]  - *     com.backupassist.sample.SampleTest
+2018-07-27 13:18:18.468 [INFO][main]  - ******************************************************************
+2018-07-27 13:18:18.484 [INFO][main]  - ----------------Test Case 1 : testArrayJason----------------
+2018-07-27 13:18:18.562 [INFO][main]  - 1
+2018-07-27 13:18:18.562 [INFO][main]  - 1.1 Job From API
+2018-07-27 13:18:18.562 [INFO][main]  - Job From API(Description)
+2018-07-27 13:18:18.562 [INFO][main]  - LocalDirectory
+2018-07-27 13:18:18.562 [INFO][main]  - c:
+2018-07-27 13:18:18.562 [INFO][main]  - 2
+2018-07-27 13:18:18.562 [INFO][main]  - 1.2 Job From API
+2018-07-27 13:18:18.562 [INFO][main]  - Job From API(Description)
+2018-07-27 13:18:18.562 [INFO][main]  - LocalDirectory
+2018-07-27 13:18:18.562 [INFO][main]  - c:
+2018-07-27 13:18:18.562 [INFO][main]  - 3
+2018-07-27 13:18:18.562 [INFO][main]  - 1.3 Job From API
+2018-07-27 13:18:18.562 [INFO][main]  - Job From API(Description)
+2018-07-27 13:18:18.562 [INFO][main]  - LocalDirectory
+2018-07-27 13:18:18.562 [INFO][main]  - c:
+2018-07-27 13:18:18.562 [INFO][main]  -                                                                   
+2018-07-27 13:18:18.578 [INFO][main]  - ----------------Test Case 2 : testDataProvider----------------
+2018-07-27 13:18:18.578 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJob.json
+2018-07-27 13:18:18.578 [INFO][main]  -                                                                   
+2018-07-27 13:18:18.578 [INFO][main]  - ----------------Test Case 3 : testDataProvider----------------
+2018-07-27 13:18:18.578 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Sample\ValidJobArray.json
+2018-07-27 13:18:18.578 [INFO][main]  -                                                                   
+2018-07-27 13:18:18.578 [INFO][main]  - ----------------Test Case 4 : testJason----------------
+2018-07-27 13:18:18.578 [INFO][main]  - 
+2018-07-27 13:18:18.578 [INFO][main]  - Job From API(Description)
+2018-07-27 13:18:18.578 [INFO][main]  - LocalDirectory
+2018-07-27 13:18:18.578 [INFO][main]  - c:
+2018-07-27 13:18:18.578 [INFO][main]  -                                                                   
+2018-07-27 13:18:18.578 [INFO][main]  - ----------------Test Case 5 : testRestAssuredToClass----------------
+2018-07-27 13:18:20.362 [INFO][main]  - {"Id":"1","Name":"Job (1)","Description":null,"Suspended":false,"Licensed":true,"ParentId":"","DependentIds":[],"BackupEngineType":"LazarusEngine","BackupSelections":{"Selections":[{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"Volumes","Inclusions":["i:"],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":true,"SelectionType":"System","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"VSS","Inclusions":[],"Exclusions":null},{"BareMetal":false,"BackupEntireSystem":false,"ValueWasEverSelectedAutomatically":false,"SelectionType":"FilesAndFolders","Inclusions":["I:\\"],"Exclusions":null}]},"BackupDestination":{"DestinationPath":"G:\\","DestinationType":"LocalDirectory","ImageUri":null,"UISelector":"LocalDrive","BackupScheme":{"MaxNumberOfChains":2,"MaxChainLength":5,"BackupFilename":"THIS SHOULD NOT BE USED","Schedule":{"BackupDays":[false,true,true,true,true,true,false],"BackupTimes":["22:00:00"],"IntraDaySchedulingSupported":false},"ImageUri":null,"UISelector":"LocalDrivePeriodicFullIncrementalForLazarus"}},"NextBackupTime":"2018-07-30T22:00:00+10:00","ResultStatus":"Success","Status":"Completed","LastRunStartDateTime":"2018-07-27T13:14:00.0100787+10:00","LastRunDuration":"35s"}
+2018-07-27 13:18:20.799 [INFO][main]  - null
+2018-07-27 13:18:20.799 [INFO][main]  -                                                                   
+2018-07-27 13:20:37.409 [INFO][main]  - ******************************************************************
+2018-07-27 13:20:37.409 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 13:20:37.409 [INFO][main]  - ******************************************************************
+2018-07-27 13:20:37.425 [INFO][main]  - ----------------Test Case 1 : cloneAJob----------------
+2018-07-27 13:20:39.737 [INFO][main]  - A cloned job is created, the id is:2
+2018-07-27 13:20:39.738 [INFO][main]  -                                                                   
+2018-07-27 13:20:39.739 [INFO][main]  - ----------------Test Case 2 : createAndDeleteAJob----------------
+2018-07-27 13:20:39.787 [INFO][main]  -                                                                   
+2018-07-27 13:20:39.787 [INFO][main]  - ----------------Test Case 3 : getAValidJobAndUpdateIt----------------
+2018-07-27 13:20:40.183 [INFO][main]  -                                                                   
+2018-07-27 13:20:40.183 [INFO][main]  - ----------------Test Case 4 : getAllJobs----------------
+2018-07-27 13:20:40.215 [INFO][main]  - Get job with id:1, and name:Job (1)
+2018-07-27 13:20:40.215 [INFO][main]  - Get job with id:2, and name:Job (2)
+2018-07-27 13:20:40.230 [INFO][main]  -                                                                   
+2018-07-27 13:20:40.230 [INFO][main]  - ----------------Test Case 5 : getAmazonS3----------------
+2018-07-27 13:20:40.668 [INFO][main]  -                                                                   
+2018-07-27 13:25:53.829 [INFO][main]  - ******************************************************************
+2018-07-27 13:25:53.829 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 13:25:53.829 [INFO][main]  - ******************************************************************
+2018-07-27 13:25:53.845 [INFO][main]  - ----------------Test Case 1 : cloneAJob----------------
+2018-07-27 13:25:56.173 [INFO][main]  - A cloned job is created, the id is:3
+2018-07-27 13:25:56.178 [INFO][main]  -                                                                   
+2018-07-27 13:25:56.179 [INFO][main]  - ----------------Test Case 2 : createAndDeleteAJob----------------
+2018-07-27 13:25:56.226 [INFO][main]  -                                                                   
+2018-07-27 13:25:56.226 [INFO][main]  - ----------------Test Case 3 : getAValidJobAndUpdateIt----------------
+2018-07-27 13:25:56.562 [INFO][main]  -                                                                   
+2018-07-27 13:25:56.562 [INFO][main]  - ----------------Test Case 4 : getAllJobs----------------
+2018-07-27 13:25:56.593 [INFO][main]  - Get job with id:1, and name:Job (1)
+2018-07-27 13:25:56.593 [INFO][main]  - Get job with id:2, and name:Job (2)
+2018-07-27 13:25:56.593 [INFO][main]  - Get job with id:3, and name:Job (3)
+2018-07-27 13:25:56.608 [INFO][main]  -                                                                   
+2018-07-27 13:25:56.608 [INFO][main]  - ----------------Test Case 5 : getAmazonS3----------------
+2018-07-27 13:25:57.015 [INFO][main]  -                                                                   
+2018-07-27 13:27:46.101 [INFO][main]  - ******************************************************************
+2018-07-27 13:27:46.117 [INFO][main]  - *     com.backupassist.testwebapi.BackupJobTest
+2018-07-27 13:27:46.117 [INFO][main]  - ******************************************************************
+2018-07-27 13:27:46.133 [INFO][main]  - ----------------Test Case 1 : cloneAJob----------------
+2018-07-27 13:27:48.523 [INFO][main]  - A cloned job is created, the id is:4
+2018-07-27 13:27:48.530 [INFO][main]  -                                                                   
+2018-07-27 13:27:48.531 [INFO][main]  - ----------------Test Case 2 : createAndDeleteAJob----------------
+2018-07-27 13:27:48.594 [INFO][main]  -                                                                   
+2018-07-27 13:27:48.594 [INFO][main]  - ----------------Test Case 3 : getAValidJobAndUpdateIt----------------
+2018-07-27 13:27:49.000 [INFO][main]  -                                                                   
+2018-07-27 13:27:49.000 [INFO][main]  - ----------------Test Case 4 : getAllJobs----------------
+2018-07-27 13:27:49.047 [INFO][main]  - Get job with id:1, and name:Job (1)
+2018-07-27 13:27:49.047 [INFO][main]  - Get job with id:2, and name:Job (2)
+2018-07-27 13:27:49.047 [INFO][main]  - Get job with id:3, and name:Job (3)
+2018-07-27 13:27:49.047 [INFO][main]  - Get job with id:4, and name:Job (4)
+2018-07-27 13:27:49.047 [INFO][main]  -                                                                   
+2018-07-27 13:27:49.047 [INFO][main]  - ----------------Test Case 5 : getAmazonS3----------------
+2018-07-27 13:27:49.531 [INFO][main]  -                                                                   
+2018-07-27 13:33:41.780 [INFO][main]  - ******************************************************************
+2018-07-27 13:33:41.796 [INFO][main]  - *     com.backupassist.testwebapi.DataDrivenRuntimeJobTest
+2018-07-27 13:33:41.796 [INFO][main]  - ******************************************************************
+2018-07-27 13:33:41.812 [INFO][main]  - ----------------Test Case 1 : createAndRunJob----------------
+2018-07-27 13:33:41.812 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\CC\4.1 CCToLocal.json
+2018-07-27 13:33:43.935 [INFO][main]  -                                                                   
+2018-07-27 13:33:43.935 [INFO][main]  - ----------------Test Case 2 : createAndRunJob----------------
+2018-07-27 13:33:43.935 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FA\3.1 FAToLocal.json
+2018-07-27 13:33:43.981 [INFO][main]  -                                                                   
+2018-07-27 13:33:43.981 [INFO][main]  - ----------------Test Case 3 : createAndRunJob----------------
+2018-07-27 13:33:43.981 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\FP\2.1 FPToLocal.json
+2018-07-27 13:33:44.013 [INFO][main]  -                                                                   
+2018-07-27 13:33:44.013 [INFO][main]  - ----------------Test Case 4 : createAndRunJob----------------
+2018-07-27 13:33:44.013 [INFO][main]  - Start to read JSON file:E:\BATest\BA_NG\TestWebAPI\testdata\Function\SP\1.1 SPToLocal.json
+2018-07-27 13:33:44.060 [INFO][main]  -                                                                   

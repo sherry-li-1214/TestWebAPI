@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuiteNavigation]">
+  <test name="Test CRUD(failed)">
+    <parameter name="password" value="Wel@come06"/>
+    <parameter name="user" value="qamsp@cortexit.com.au"/>
+    <classes>
+      <class name="com.backupassist.testwebapi.DataDrivenRuntimeJobTest">
+        <methods>
+          <include name="cleanupAfterMethod"/>
+          <include name="initBeforeClass"/>
+          <include name="createAndRunJob" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.backupassist.testwebapi.DataDrivenRuntimeJobTest -->
+    </classes>
+  </test> <!-- Test CRUD(failed) -->
+</suite> <!-- Failed suite [TestSuiteNavigation] -->

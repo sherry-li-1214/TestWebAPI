@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.119 s <<< FAILURE! - in TestSuite
+createAndRunJob(com.backupassist.testwebapi.DataDrivenRuntimeJobTest)  Time elapsed: 2.123 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.backupassist.testwebapi.DataDrivenRuntimeJobTest.createAndRunJob(DataDrivenRuntimeJobTest.java:44)
+
+createAndRunJob(com.backupassist.testwebapi.DataDrivenRuntimeJobTest)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.backupassist.testwebapi.DataDrivenRuntimeJobTest.createAndRunJob(DataDrivenRuntimeJobTest.java:44)
+
+createAndRunJob(com.backupassist.testwebapi.DataDrivenRuntimeJobTest)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.backupassist.testwebapi.DataDrivenRuntimeJobTest.createAndRunJob(DataDrivenRuntimeJobTest.java:44)
+
+createAndRunJob(com.backupassist.testwebapi.DataDrivenRuntimeJobTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.backupassist.testwebapi.DataDrivenRuntimeJobTest.createAndRunJob(DataDrivenRuntimeJobTest.java:44)
+
